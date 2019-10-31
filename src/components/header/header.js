@@ -1,13 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { connect } from 'react-redux';
 
 import { auth } from '../../firebase/firebase.utils';
 
 import './header.scss';
+
 const Header = ({ currentUser }) => (
   <div className='header'>
     <Link className='logo-container' to='/'>
-     <p className='logo'>eCommerce</p>
+      <p className='logo'>eCommerce</p>
     </Link>
     <div className='options'>
       <Link className='option' to='/shop'>
@@ -29,4 +31,8 @@ const Header = ({ currentUser }) => (
   </div>
 );
 
-export default Header;
+const mapStateToProps = state => ({
+  currentUser: state.user.currentUser
+});
+
+export default connect(mapStateToProps)(Header);
