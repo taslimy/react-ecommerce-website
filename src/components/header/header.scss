@@ -7,9 +7,16 @@
   align-items: center;
 
   .logo-container {
-    height: 100%;
-    width: 70px;
+   height: 100%;
+    width: 100%;
     padding: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .logo-text {
+    margin-left: 5px;
   }
 
   .options {
