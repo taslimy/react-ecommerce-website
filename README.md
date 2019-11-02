@@ -1,5 +1,5 @@
 # React Commerce
-This is an example eCommerce project that is hosted on Heroku. [Live Demo](https://react-commerce.herokuapp.com/).
+This is an example of an ecommerce website built with React. [Live Demo](https://react-commerce.herokuapp.com/) is hosted on Heroku.
 
 ## Packages used
 Updating Soon . . .
