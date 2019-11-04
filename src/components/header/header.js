@@ -11,8 +11,6 @@ import { selectCartHidden } from '../../redux/cart/cart.selectors';
 
 import { ReactComponent as Logo } from '../../assets/logo.svg';
 
-import './header.scss';
-
 import {
   HeaderContainer,
   LogoContainer,
